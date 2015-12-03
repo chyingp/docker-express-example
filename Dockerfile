@@ -4,3 +4,4 @@ RUN apt-get -qq update
 RUN apt-get -qqy install curl
 RUN curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 RUN apt-get install -y nodejs
+RUN echo "nodejs is installed successfully!"
